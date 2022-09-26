@@ -1,0 +1,21 @@
+.logo {
+    font-family: 'Raleway';
+    @include font(24px, 700, 1.16, null);
+
+    @media  screen and (min-width: 1200px) {
+        @include font(26px, null, 1.19, null);
+    }
+    
+}
+
+.logo-web {
+    color: $accent-color;
+}
+
+.logo-studio--blak {
+    color: $title-text-color;
+}
+
+.logo-studio--white {
+    color: $white-color;
+}

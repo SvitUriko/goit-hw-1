@@ -1,0 +1,13 @@
+body {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    color: $title-text-color;
+    background-color: $white-color;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
